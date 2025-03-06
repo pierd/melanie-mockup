@@ -190,21 +190,21 @@ const Home = () => {
         <PaletteTitle>Our Color Palettes</PaletteTitle>
         <ColorsGrid>
           <PaletteColumn>
-            <PaletteName>Yoga (Sage Green)</PaletteName>
+            <PaletteName>Yoga</PaletteName>
             <ColorSwatch bgColor="var(--yoga-primary)">Primary</ColorSwatch>
             <ColorSwatch bgColor="var(--yoga-light)">Light</ColorSwatch>
             <ColorSwatch bgColor="var(--yoga-deep)">Deep</ColorSwatch>
           </PaletteColumn>
 
           <PaletteColumn>
-            <PaletteName>Massage (Terracotta)</PaletteName>
+            <PaletteName>Massage</PaletteName>
             <ColorSwatch bgColor="var(--massage-primary)">Primary</ColorSwatch>
             <ColorSwatch bgColor="var(--massage-light)">Light</ColorSwatch>
             <ColorSwatch bgColor="var(--massage-deep)">Deep</ColorSwatch>
           </PaletteColumn>
 
           <PaletteColumn>
-            <PaletteName>Midwifery (Golden Ochre)</PaletteName>
+            <PaletteName>Midwifery</PaletteName>
             <ColorSwatch bgColor="var(--midwifery-primary)">Primary</ColorSwatch>
             <ColorSwatch bgColor="var(--midwifery-light)">Light</ColorSwatch>
             <ColorSwatch bgColor="var(--midwifery-deep)">Deep</ColorSwatch>
