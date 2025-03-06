@@ -67,15 +67,15 @@ const ALTERNATIVE_COLORS = {
   midwiferyLight: '#E6E6FA',
   midwiferyDeep: '#8A4FFF',
 
-  // Beige/Neutral stays the same in alternative theme
-  beigePrimary: '#C4B49F',
-  beigeLight: '#E6D7C3',
-  beigeDeep: '#8B7D6B',
+  // Alternative Beige/Neutral (Unifying Primary Colors)
+  beigePrimary: '#1A9186', // Deep Teal
+  beigeLight: '#D4B483',   // Warm Sand
+  beigeDeep: '#34495E',    // Soft Navy Blue
 
-  // Black Palette stays the same
-  textPrimary: '#000000',
-  textSecondary: '#2C2C2C',
-  textTertiary: '#121212'
+  // Alternative Black Palette (Background & Neutral Colors)
+  textPrimary: '#F5F5F5',  // Soft Gray
+  textSecondary: '#FAFAFA', // Off-White
+  textTertiary: '#E9E9E9'  // Light Gray
 };
 
 export const ThemeProvider = ({ children }: ThemeProviderProps) => {
