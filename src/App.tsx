@@ -27,7 +27,7 @@ function App() {
     <ThemeProvider>
       <AppContainer>
         <ThemeToggle />
-        <Router>
+        <Router basename="/melanie-mockup">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/yoga" element={<Yoga />} />
