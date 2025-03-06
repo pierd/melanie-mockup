@@ -1,0 +1,147 @@
+:root {
+  /* ===== DEFAULT COLOR PALETTES ===== */
+  
+  /* Sage Green Palette (Yoga Services) */
+  --yoga-primary: #6B7355;
+  --yoga-light: #9CA383;
+  --yoga-deep: #3C4228;
+  
+  /* Terracotta Palette (Massage Services) */
+  --massage-primary: #A0522D;
+  --massage-light: #C08267;
+  --massage-deep: #5D3A1A;
+  
+  /* Golden Ochre Palette (Midwifery Services) */
+  --midwifery-primary: #CC7722;
+  --midwifery-light: #E3A23D;
+  --midwifery-deep: #8B4513;
+  
+  /* Beige/Neutral Palette (Shared Elements) */
+  --beige-primary: #C4B49F;
+  --beige-light: #E6D7C3;
+  --beige-deep: #8B7D6B;
+  
+  /* Black Palette (Text & Accents) */
+  --text-primary: #000000;   /* Primary (Black) */
+  --text-secondary: #2C2C2C; /* Dark Charcoal */
+  --text-tertiary: #121212;  /* Deep Noir */
+
+  /* ===== ALTERNATIVE COLOR PALETTES ===== */
+  /* These are defined for reference but applied via JS */
+  
+  /* Alternative Yoga Service Colors */
+  --alt-yoga-primary: #8FBC8F;
+  --alt-yoga-light: #C5E1A5;
+  --alt-yoga-deep: #567E5A;
+  
+  /* Alternative Massage Service Colors */
+  --alt-massage-primary: #FF7F50;
+  --alt-massage-light: #FFB088;
+  --alt-massage-deep: #CD5C5C;
+  
+  /* Alternative Midwifery Service Colors */
+  --alt-midwifery-primary: #B57EDC;
+  --alt-midwifery-light: #E6E6FA;
+  --alt-midwifery-deep: #8A4FFF;
+  
+  /* Unifying Primary Colors (Used in alternative theme) */
+  --alt-unifying-teal: #1A9186;
+  --alt-unifying-sand: #D4B483;
+  --alt-unifying-navy: #34495E;
+  
+  /* Background & Neutral Colors */
+  --bg-soft-gray: #F5F5F5;
+  --bg-off-white: #FAFAFA;
+  --bg-light-gray: #E9E9E9;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: var(--text-secondary);
+  background-color: var(--bg-off-white);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.75rem;
+  color: #444;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+ul {
+  list-style-position: inside;
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #1a1a1a;
+  }
+  button {
+    background-color: #1a1a1a;
+  }
+}
